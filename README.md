@@ -1,4 +1,4 @@
-## Project title
+## Access Kickstart
 
 ## Motivation
 
@@ -7,25 +7,40 @@
 ## Screenshots
 
 ## Tech/framework used
+#### Gatsby
+This site is built with the help of GatsbyJS and the starter code in their tutorial. To learn more, visit https://www.gatsbyjs.org/.
+
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+
+Run the Gatsby development server by running:
+```
+gatsby develop
 
 ## Features
 
 ## Installation
 
-## Contact / Contribute
+## Contact inquiries
+Please contact Masen Matthews using one of the following avenues:
+
+Email: masenmatthews@gmail.com
+Twitter: masen_matthews
+Github: masenmatthews
 
 ## License
+*MIT License
 
-## Gatsby notes
-### gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+Copyright (c) [2018] [Masen Matthews]
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Running in development
-`gatsby develop`
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+
+Copyright (c) 2018 Masen Matthews
+
+#### Development notes
+May be worth looking at implementing: https://www.gatsbyjs.org/packages/gatsby-plugin-accessibilityjs/?=
