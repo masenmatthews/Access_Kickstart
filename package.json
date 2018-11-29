@@ -24,6 +24,7 @@
     "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
+    "styled-jsx": "^3.1.2",
     "typography": "^0.16.17",
     "typography-theme-funston": "^0.15.10",
     "typography-theme-judah": "^0.15.10",

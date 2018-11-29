@@ -1,7 +1,6 @@
 import React from "react"
 import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
-
 import { rhythm } from "../utils/typography"
 
 export default ({ children }) => (
@@ -15,12 +14,12 @@ export default ({ children }) => (
         }
       }
     `
-}
+  }
     render={data => (
       <div
         className={css`
           margin: 0 auto;
-          max-width: 700px;
+          max-width: 1000px;
           padding: ${rhythm(2)};
           padding-top: ${rhythm(1.5)};
         `}
