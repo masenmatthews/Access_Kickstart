@@ -5,12 +5,33 @@ import { rhythm } from "../utils/typography"
 
 export default () => (
   <div>
-    <h1>Access Kickstart</h1>
+    <div style={{ margin: `3rem auto`, maxWidth: 700 }}>
+      <h1
+      className={css`
+        display: inline-block;
+        border-bottom: 1px solid;
+      `}
+    >
+      AccessiReference
+    </h1>
     <div>
       <p>
-        A site designed to help the world become more accessible.
+        A site designed to help the web become more accessible.
       </p>
     </div>
-    <p>I want to develop a site for people with...</p>
+    <p>I want to make my application more accessible for people that struggle with...</p>
+    <table>
+      <tr>
+        <th>Vision</th>
+        <th>Hearing</th>
+        <th>Mobility</th>
+      </tr>
+      <tr>
+        <th>Speech</th>
+        <th>Cognition</th>
+        <th>Other</th>
+      </tr>
+    </table>
   </div>
+</div>
 )
