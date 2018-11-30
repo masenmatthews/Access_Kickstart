@@ -16,6 +16,7 @@ export default ({ data }) => {
       <Link
         to={`/vision/`}
         className={css`
+          margin-left: ${rhythm(2.5)};
           margin-right: ${rhythm(1)};
         `}
         >
