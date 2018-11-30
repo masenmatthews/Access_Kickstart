@@ -39,9 +39,18 @@ export default ({ children }) => (
           to={`/about/`}
           className={css`
             float: right;
+            margin-left: ${rhythm(1)};
           `}
         >
           About
+        </Link>
+        <Link
+          to={`/contact/`}
+          className={css`
+            float: right;
+          `}
+        >
+          Contact
         </Link>
         {children}
       </div>

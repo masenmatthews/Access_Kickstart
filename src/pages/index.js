@@ -13,18 +13,54 @@ export default ({ data }) => {
         </p>
       </div>
       <p>I want to make my application more accessible for people that struggle with...</p>
-      <table>
-        <tr>
-          <th>Vision</th>
-          <th>Hearing</th>
-          <th>Mobility</th>
-        </tr>
-        <tr>
-          <th>Speech</th>
-          <th>Cognition</th>
-          <th>Other</th>
-        </tr>
-      </table>
+      <Link
+        to={`/vision/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Vision
+      </Link>
+      <Link
+        to={`/hearing/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Hearing
+      </Link>
+      <Link
+        to={`/mobility/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Mobility
+      </Link>
+      <Link
+        to={`/speech/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Speech
+      </Link>
+      <Link
+        to={`/cognition/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Cognition
+      </Link>
+      <Link
+        to={`/other/`}
+        className={css`
+          margin-right: ${rhythm(1)};
+        `}
+        >
+        Other
+      </Link>
     </Layout>
   )
 }
