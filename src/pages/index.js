@@ -57,7 +57,7 @@ export default ({ data }) => {
       <Link
         to={`/other/`}
         className={css`
-          margin-right: ${rhythm(1)};
+          margin-right: ${rhythm(2.5)};
         `}
         >
         Other
