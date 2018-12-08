@@ -12,8 +12,19 @@ export default ({ data }) => (
     <Header>Help me with...</Header>
       <Link
         to={'/about-screen-readers/'}
+        className={css`
+          display: inline-block;
+        `}
         >
         Understanding how screen readers work
+      </Link>
+      <Link
+        to={'/site-navigation-visual/'}
+        className={css`
+          display: inline-block;
+        `}
+        >
+        Making my site navigtable for blind and visually impaired users
       </Link>
       {/* Need to figure out how to style collapsible trigger - CSS module has been tricky */}
       <Collapsible
