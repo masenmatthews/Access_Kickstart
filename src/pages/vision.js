@@ -1,17 +1,18 @@
-import React from "react"
+import React, { Component } from "react"
 import { css } from "react-emotion"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Collapsible from 'react-collapsible';
 import { rhythm } from "../utils/typography"
 import Header from "../components/header"
+// import styles from './link.module.css';
 
 export default ({ data }) => (
   <Layout>
     <h1>Vision</h1>
     <Header>Help me with...</Header>
       <Link
-        to={'/about-screen-readers/'}
+        to={'/site-navigation-visual/'}
         className={css`
           display: inline-block;
         `}

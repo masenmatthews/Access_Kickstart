@@ -2,6 +2,7 @@ import React from "react"
 import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import "./layout.css"
 
 export default ({ children }) => (
   <StaticQuery
