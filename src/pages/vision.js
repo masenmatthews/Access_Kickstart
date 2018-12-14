@@ -10,7 +10,7 @@ import Header from "../components/header"
 export default ({ data }) => (
   <Layout>
     <h1>Vision</h1>
-    <Header>Help me with...</Header>
+    <h2>Help me with...</h2>
       <Link
         to={'/site-navigation-visual/'}
         className={css`

@@ -44,3 +44,8 @@ Coming soon!
 
 #### Development notes
 May be worth looking at implementing: https://www.gatsbyjs.org/packages/gatsby-plugin-accessibilityjs/?=
+
+Next steps need to be:
+  -Moving header materials and styles into their own module/component. Currently, header styles are in "layout" which isn't neccesarily ideal because it makes it impossible to style the header without messing with everything else. Maybe not impossible, but a lot harder.
+
+  -Make a new branch and try to move all of that nonsense around.

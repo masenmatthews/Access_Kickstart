@@ -2,59 +2,12 @@ import React from "react"
 import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import Header from "../components/header"
+import headerStyles from "./header.module.css"
 import "./layout.css"
 
 export default ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  }
-    render={data => (
-      <div
-        className={css`
-          margin: 0 auto;
-          max-width: 1000px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
-        `}
-      >
-        <Link to={`/`}>
-          <h3
-            className={css`
-              margin-bottom: ${rhythm(2)};
-              display: inline-block;
-              font-style: normal;
-            `}
-          >
-            {data.site.siteMetadata.title}
-          </h3>
-        </Link>
-        <Link
-          to={`/about/`}
-          className={css`
-            float: right;
-            margin-left: ${rhythm(1)};
-          `}
-        >
-          About
-        </Link>
-        <Link
-          to={`/contact/`}
-          className={css`
-            float: right;
-          `}
-        >
-          Contact
-        </Link>
-        {children}
-      </div>
-    )}
-  />
+  <Header>
+    <div className={headerStyles.header}>{children}</div>
+  </Header>
 )
