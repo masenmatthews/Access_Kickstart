@@ -17,12 +17,13 @@ export default ({ children }) => (
     `
   }
     render={data => (
+    <div>
       <div
         className={css`
           margin: 0 auto;
           max-width: 1000px;
-          padding: ${rhythm(2)};
-          padding-top: ${rhythm(1.5)};
+          padding: ${rhythm(0.25)};
+          padding-top: ${rhythm(0.5)};
         `}
       >
         <Link to={`/`}>
@@ -53,8 +54,8 @@ export default ({ children }) => (
         >
           Contact
         </Link>
-        {children}
       </div>
+    </div>
     )}
   />
 )
