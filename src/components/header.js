@@ -20,16 +20,16 @@ export default ({ children }) => (
     <div>
       <div
         className={css`
+          background-color: #ffb6c1;
           margin: 0 auto;
           max-width: 1000px;
-          padding: ${rhythm(0.25)};
+          padding: ${rhythm(0.5)};
           padding-top: ${rhythm(0.5)};
         `}
       >
         <Link to={`/`}>
           <h3
             className={css`
-              margin-bottom: ${rhythm(2)};
               display: inline-block;
               font-style: normal;
             `}

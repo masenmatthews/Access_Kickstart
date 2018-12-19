@@ -1,11 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import { css } from "react-emotion"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Collapsible from 'react-collapsible';
-import { rhythm } from "../utils/typography"
-import Header from "../components/header"
-// import styles from './link.module.css';
 
 export default ({ data }) => (
   <Layout>

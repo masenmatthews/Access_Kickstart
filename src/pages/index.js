@@ -1,9 +1,8 @@
 import React from "react"
 import { css } from "react-emotion"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-import Header from "../components/header"
 
 export default ({ data }) => {
   return (
