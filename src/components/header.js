@@ -23,8 +23,9 @@ export default ({ children }) => (
           background-color: #ffb6c1;
           margin: 0 auto;
           max-width: 1000px;
-          padding: ${rhythm(0.5)};
+          padding: ${rhythm(0.25)};
           padding-top: ${rhythm(0.5)};
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
         `}
       >
         <Link to={`/`}>

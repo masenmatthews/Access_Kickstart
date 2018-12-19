@@ -1,7 +1,4 @@
 import React from "react"
-import { css } from "react-emotion"
-import { StaticQuery, Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 import cardStyles from "./card.module.css"
 
 export default ({ children }) => (
