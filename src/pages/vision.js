@@ -8,22 +8,26 @@ export default ({ data }) => (
   <Layout>
     <h1>Vision</h1>
     <h2>Help me with...</h2>
-      <Link
-        to={'/site-navigation-visual/'}
-        className={css`
-          display: inline-block;
-        `}
-        >
-        Understanding how screen readers work
-      </Link>
-      <Link
-        to={'/site-navigation-visual/'}
-        className={css`
-          display: inline-block;
-        `}
-        >
-        Making my site navigtable for blind and visually impaired users
-      </Link>
+    <div>
+        <Link
+          to={'/site-navigation-visual/'}
+          className={css`
+            display: inline-block;
+          `}
+          >
+          Understanding how screen readers work
+        </Link>
+      </div>
+      <div>
+        <Link
+          to={'/site-navigation-visual/'}
+          className={css`
+            display: inline-block;
+          `}
+          >
+          Making my site navigtable for blind and visually impaired users
+        </Link>
+      </div>
       {/* Need to figure out how to style collapsible trigger - CSS module has been tricky */}
       <Collapsible
         trigger="Click here to see helpful shortcuts related to zooming!">

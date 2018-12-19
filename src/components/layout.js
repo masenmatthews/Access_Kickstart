@@ -10,8 +10,9 @@ export default ({ children }) => (
     </div>
     <div className={css`
         margin: 0 auto;
-        max-width: 1000px;
-        padding: ${rhythm(0.5)};
+        padding: ${rhythm(1.5)};
+        padding-left: ${rhythm(5)};
+        padding-right: ${rhythm(5)};
         `}>
       {children}
     </div>
