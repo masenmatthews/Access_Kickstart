@@ -46,6 +46,9 @@ Coming soon!
 May be worth looking at implementing: https://www.gatsbyjs.org/packages/gatsby-plugin-accessibilityjs/?=
 
 Next steps need to be:
-  -Moving header materials and styles into their own module/component. Currently, header styles are in "layout" which isn't neccesarily ideal because it makes it impossible to style the header without messing with everything else. Maybe not impossible, but a lot harder.
+  -Header has successfully been refactored (yay!).
+  -Currently on card branch working on implementing cards for the links on the homepage. Try to make it in a <Card /> module where all you have to do is this:
 
-  -Make a new branch and try to move all of that nonsense around.
+  <Card>
+    <link to vision>
+  </Card>
