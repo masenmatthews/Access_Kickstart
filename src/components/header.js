@@ -20,10 +20,9 @@ export default ({ children }) => (
     <div>
       <div
         className={css`
-          background-color: #ffb6c1;
+          background-color: #FA7E7E;
+          color: white;
           margin: 0 auto;
-          max-width: 1000px;
-          padding: ${rhythm(0.25)};
           padding-top: ${rhythm(0.5)};
           box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
         `}
@@ -33,6 +32,7 @@ export default ({ children }) => (
             className={css`
               display: inline-block;
               font-style: normal;
+              padding-left: ${rhythm(0.75)};
             `}
           >
             {data.site.siteMetadata.title}
@@ -43,6 +43,7 @@ export default ({ children }) => (
           className={css`
             float: right;
             margin-left: ${rhythm(1)};
+            padding-right: ${rhythm(0.75)};
           `}
         >
           About

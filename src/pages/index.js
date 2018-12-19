@@ -40,6 +40,13 @@ export default ({ data }) => {
             Mobility
           </Link>
         </Card>
+      </div>
+      <div className={css`
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+          `}>
         <Card>
           <Link
             to={`/speech/`}
