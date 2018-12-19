@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => (
@@ -8,13 +7,3 @@ export default ({ data }) => (
     <p>Coming soon!</p>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

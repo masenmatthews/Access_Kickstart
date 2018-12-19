@@ -1,6 +1,6 @@
 import React from "react"
 import { css } from "react-emotion"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Collapsible from 'react-collapsible';
 
@@ -10,7 +10,7 @@ export default ({ data }) => (
     <h2>Help me with...</h2>
     <div>
         <Link
-          to={'/site-navigation-visual/'}
+          to={'/about-screen-readers/'}
           className={css`
             display: inline-block;
           `}
@@ -20,12 +20,32 @@ export default ({ data }) => (
       </div>
       <div>
         <Link
-          to={'/site-navigation-visual/'}
+          to={'/about-alt-and-aria-tags/'}
+          className={css`
+            display: inline-block;
+          `}
+          >
+          Learning how to implement alt and ARIA tags effectively
+        </Link>
+      </div>
+      <div>
+        <Link
+          to={'/blind-and-low-vision-navigation/'}
           className={css`
             display: inline-block;
           `}
           >
           Making my site navigtable for blind and visually impaired users
+        </Link>
+      </div>
+      <div>
+        <Link
+          to={'/blind-and-low-vision-more-resources/'}
+          className={css`
+            display: inline-block;
+          `}
+          >
+          Finding more resources to learn about blind and low vision accessibility
         </Link>
       </div>
       {/* Need to figure out how to style collapsible trigger - CSS module has been tricky */}
@@ -40,13 +60,3 @@ export default ({ data }) => (
       </Collapsible>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

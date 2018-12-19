@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => (
@@ -9,13 +8,3 @@ export default ({ data }) => (
     <p>Icons found on the homepage of this site are courtesy of <a href="https://thenounproject.com/">The Noun Project</a></p>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
