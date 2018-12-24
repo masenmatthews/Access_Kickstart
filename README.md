@@ -7,7 +7,7 @@
 Please contact Masen Matthews using one of the following avenues:
 
 Email: masenmatthews@gmail.com
-Twitter: masen_matthews
+Twitter: @masen_matthews
 Github: masenmatthews
 
 ## Description and Motivation
@@ -36,11 +36,30 @@ gatsby develop
 ## Features
 Coming soon!
 
-## Installation
-Coming soon!
+## Setup + Installation
+* _Ensure that proper technologies and dependencies are installed for Gatsby to work on your computer (see https://www.gatsbyjs.org/tutorial/part-zero/)_
+
+* _Open terminal and clone GitHub repository to desktop or desired directory_
+
+```sh
+cd-desktop
+git clone (repository URL)
+```
+
+* _Navigate to directory in terminal_
+```sh
+cd-accessireference
+```
+
 
 ## License
 Coming soon!
 
 #### Development notes
 May be worth looking at implementing: https://www.gatsbyjs.org/packages/gatsby-plugin-accessibilityjs/?=
+
+Things to implement:
+-Folder restructuring for pages
+-Full, completed README
+-Page contents
+-

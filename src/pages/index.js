@@ -28,7 +28,7 @@ export default ({ data }) => {
         <Card>
           <img src={eye} alt="eye icon"/>
           <Link
-            to={`/vision/`}
+            to={`/vision-index/`}
             >
             Vision
           </Link>
@@ -36,7 +36,7 @@ export default ({ data }) => {
         <Card>
           <img src={ear} alt="ear icon"/>
           <Link
-            to={`/hearing/`}
+            to={`/hearing-index/`}
             >
             Hearing
           </Link>
@@ -44,7 +44,7 @@ export default ({ data }) => {
         <Card>
           <img src={hand} alt="hand icon"/>
           <Link
-            to={`/mobility/`}
+            to={`/mobility-index/`}
             >
             Mobility
           </Link>
@@ -59,7 +59,7 @@ export default ({ data }) => {
         <Card>
           <img src={mouth} alt="mouth icon"/>
           <Link
-            to={`/speech/`}
+            to={`/speech-index/`}
             >
             Speech
           </Link>
@@ -67,7 +67,7 @@ export default ({ data }) => {
         <Card>
           <img src={brain} alt="brain icon"/>
           <Link
-            to={`/cognition/`}
+            to={`/cognition-index/`}
             >
             Cognition
           </Link>
@@ -75,7 +75,7 @@ export default ({ data }) => {
         <Card>
           <img src={elipses} alt="elipses icon"/>
           <Link
-            to={`/other/`}
+            to={`/other-index/`}
             >
             Other
           </Link>
