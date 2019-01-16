@@ -62,4 +62,3 @@ Things to implement:
 -Folder restructuring for pages
 -Full, completed README
 -Page contents
--
